@@ -140,7 +140,7 @@ public class BeanReader {
         // create a StreamFactory
         StreamFactory factory = StreamFactory.newInstance();
         // load the mapping file
-        factory.load("C:\\Users\\Holly Rose\\OneDrive\\Desktop\\UCM\\Spring 2020\\Software Engineering - Commerce Files\\ZIPS\\FINAL\\file\\file\\file\\src\\main\\java\\com\\lec\\file\\mapping.xml");
+        factory.load("C:\\Users\\Holly Rose\\git\\Commerce\\file\\src\\main\\java\\com\\lec\\file\\mapping.xml");
         
         //String path = file.getAbsolutePath();
         
