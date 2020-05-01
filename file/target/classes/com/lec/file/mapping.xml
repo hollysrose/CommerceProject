@@ -1,0 +1,65 @@
+<beanio xmlns="http://www.beanio.org/2012/03" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.beanio.org/2012/03 http://www.beanio.org/2012/03/mapping.xsd">
+
+    <stream name="data" format="fixedlength">
+    <record name="nacha" class="com.lec.file.NACHA">
+    	<field name="recordTypeCode" />
+    	<field name="priorityCode" keepPadding ="true"/>
+    	<field name="iDestination" keepPadding ="true"/>
+    	<field name="iOrigin" keepPadding ="true"/>
+    	<field name="fileCDate" keepPadding ="true"/>
+    	<field name="fileCTime" keepPadding ="true"/>
+    	<field name="fileIDMod" keepPadding ="true"/>
+    	<field name="recordSize" keepPadding ="true"/>
+    	<field name="blockingFac" keepPadding ="true"/>
+    	<field name="formatCode" keepPadding ="true"/>
+    	<field name="iDestinationName" keepPadding ="true"/>
+    	<field name="iOrginName" keepPadding ="true"/>
+    	<field name="referencecode" keepPadding ="true"/>
+       	<field name="recordTypeCode" keepPadding ="true"/>
+    	<field name="serviceCode" keepPadding ="true"/>
+    	<field name="comapanyName" keepPadding ="true"/>
+    	<field name="discretionaryData" keepPadding ="true"/>
+    	<field name="compIdentification" keepPadding ="true"/>
+    	<field name="standardEntry" keepPadding ="true"/>
+    	<field name="companyEntryDescription" keepPadding ="true"/>
+    	<field name="companyDescriptive" keepPadding ="true"/>
+    	<field name="effectiveEntryDate" keepPadding ="true"/>
+    	<field name="settlementDate" keepPadding ="true"/>
+    	<field name="originator" keepPadding ="true"/>
+    	<field name="originationgDFI" keepPadding ="true"/>
+    	<field name="batchNumber" keepPadding ="true"/>
+		<field name="recordTypeCode" keepPadding ="true"/>
+		<field name="transactionCode" keepPadding ="true"/>
+		<field name="routingNumber" keepPadding ="true"/>
+		<field name="routingNumberCredit" keepPadding ="true"/>
+		<field name="routingNumberAccount" keepPadding ="true"/>
+		<field name="amount" keepPadding ="true"/>
+		<field name="receiverID" keepPadding ="true"/>
+		<field name="reciever" keepPadding ="true"/>
+		<field name="discretionaryData" keepPadding ="true"/>
+		<field name="addendaRecord" keepPadding ="true"/>
+		<field name="traceNumber" keepPadding ="true"/>
+		<field name="recordTypeCode" keepPadding ="true"/>
+		<field name="serviceClass" keepPadding ="true"/>
+		<field name="addendaCount" keepPadding ="true"/>
+		<field name="entryHash" keepPadding ="true"/>
+		<field name="totalDebitAmount" keepPadding ="true"/>
+		<field name="totalCreditAmount" keepPadding ="true"/>
+		<field name="companyID" keepPadding ="true"/>
+		<field name="messageAuth" keepPadding ="true"/>
+		<field name="bankUse" keepPadding ="true"/>
+		<field name="dfiID" keepPadding ="true"/>
+		<field name="batchNumber" keepPadding ="true"/>
+		<field name="recordTypeCode" keepPadding ="true"/>
+		<field name="batchCount" keepPadding ="true"/>
+		<field name="blockCount" keepPadding ="true"/>
+		<field name="AddendaCount" keepPadding ="true"/>
+		<field name="entryHash" keepPadding ="true"/>
+		<field name="totalDebitAmount" keepPadding ="true"/>
+		<field name="totalCreditAmount" keepPadding ="true"/>
+		<field name="bankUse" keepPadding ="true"/>
+	</record>
+  </stream>
+</beanio>
